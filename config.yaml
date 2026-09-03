@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (a5e44059b41829dc)
+project:
+  name: ethereum-bridge-cli-noeu
+  tag: a5e44059b41829dc
+  env: production
+cfg_pulse8mehq0:
+  enabled: true
+  workers: 2
+cfg_deltam8fwox:
+  timeout_sec: 45
+  retry: 3
+cfg_shardgw1r2c:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
